@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Registration Form </title>
+    <link rel="stylesheet" href="cascading.css">
+  </head>
+  
+  <body>
+    <h1 class="title">Registration Form</h1>
+    <p class="para-1">Please fill out this form with the required information</p>
+    <div class="details-dialog">
+      
+      <div>
+        <div class="command">
+          <p>Enter your First Name:</p>
+        </div>
+        <input class="input-field" type="text">
+      </div>
+
+      <div>
+        <div class="command">
+          <p>Enter your Last Name:</p>
+        </div>
+        <input class="input-field" type="text">
+      </div>
+
+      <div>
+        <div class="command">
+          <p>Enter your Email:</p>
+        </div>
+        <input class="input-field" type="email">
+      </div>
+
+      <div>
+        <div class="command">
+          <p>Create a New Password:</p>
+        </div>
+        <input class="input-field" type="password">
+      </div>
+
+      <hr class="divider">
+
+      <fieldset class="options-box">
+        <label><input type="radio" name="account"> Personal Account</label><br>
+        <label><input type="radio" name="account"> Business Account</label><br>
+        <label><input type="checkbox"> I agree with the <a href="https://www.freecodecamp.org/news/terms-of-service/">Terms and Conditions</a></label>
+      </fieldset>
+
+      <hr class="divider">
+
+      <div class="form-section">
+        <div class="form-group">
+          <label>Upload a profile picture:</label>
+          <input type="file" />
+        </div>
+      
+        <div class="form-group">
+          <label>Input your age (years):</label>
+          <input type="number" />
+        </div>
+      
+        <div class="form-group">
+          <label>How did you hear about us?</label>
+          <select>
+            <option>(select one)</option>
+            <option>Friend</option>
+            <option>Social Media</option>
+          </select>
+        </div>
+      
+        <div class="form-group">
+          <label>Provide a bio:</label>
+          <textarea placeholder="I like coding while riding"></textarea>
+        </div>
+      
+        <div class="form-group center-btn">
+          <button type="submit">Submit</button>
+        </div>
+      </div>  
+    </div>
+  </body>
+</html>
